@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta name="description" content="Escola de treinamentos e cursos.">
+  <link rel="icon" type="image/png" sizes="16x16"  href="assets/favicons/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32"  href="assets/favicons/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="assets/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="assets/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/favicons/apple-touch-icon-76x76.png">
+  <link rel="icon" type="image/png" sizes="96x96"  href="assets/favicons/apple-touch-icon-96x96.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon-180x180.png">
+<title>Questionário</title>
+<style>
+
+body {
+font-family: Arial, sans-serif;
+background-color: #683e66;
+}
+
+h1 {
+text-align: center;
+color: #fff;
+}
+
+#questionario {
+background-color: #8a6488;
+max-width: 600px;
+margin: 0 auto;
+padding: 20px;
+border-radius: 5px;
+}
+.pergunta {
+margin-bottom: 20px;
+color: rgb(221, 221, 221);
+}
+.resposta {
+margin-left: 20px;
+ }
+
+
+ .resultado {
+ margin-top: 20px;
+ text-align: center;
+ }
+
+  </style>
+ </head>
+ <body>
+  <h1>Questionário</h1>
+  <div id="questionario">
+   <div class="pergunta">
+    <h3>1- Como se define o Scrum e como funciona o seu processo de implementação?</h3>
+    <label>
+    <input type="radio" name="q1" value="0" id="q1_opcao1"/>O Scrum é um framework propositalmente completo, sendo aplicado e superviosionado pelo Scrum Master, que gerencia a equipe.
+    </label>
+    <br>
+    <label>
+    <input type="radio" name="q1" value="0" id="q1_opcao2"/>O Scrum é um método desenvolvido apenas pelo cliente, a equipe Scrum, segue as suas instruções e aplica ao produto quando necessário.
+    </label>
+    <br>
+    <label>
+    <input type="radio" name="q1" value="1" id="q1_opcao3"/>O Scrum é um framework propositalmente incompleto, sendo construído sobre a inteligência coletiva do time.
+    </label>
+    <br>
+    <label>
+    <input type="radio" name="q1" value="0" id="q1_opcao4"/>O Scrum é um framework propositalmente completo, sendo aplicado nos momentos de conclusão das Sprints.
+    </label>
+    <br>
+    <label>
+    <input type="radio" name="q1" value="0" id="q1_opcao5"/>O Scrum é um método ocasionalmente incompleto, sendo aplicado da maneira que o time identicar ser melhor para se adaptar ao produto.
+    </label>
+   </div>
+   <div class="pergunta">
+    <h3>2- O Scrum é composto por dois alicerces, o primeiro define que a tomada de decisões com base no que é observado, desenvolve a experiência, gerando também o conhecimento. Já o segundo tem o objetivo de buscar minimizar o desperdício, focando no essencial para o projeto. Com base nestas definições, respectivamente, quais são os dois alicerces do Scrum?</h3>
+    <label>
+     <input type="radio" name="q2" value="0" id="q2_opcao1"/>Liderança e Adaptação
+    </label>
+    <br>
+    <label>
+     <input type="radio" name="q2" value="1" id="q2_opcao2"/>Empirismo e Lean Thinking
+    </label>
+    <br>
+    <label>
+     <input type="radio" name="q2" value="0" id="q2_opcao3"/>Sprint e Lean Thinking
+    </label>
+    <br>
+    <label>
+    <input type="radio" name="q2" value="0" id="q2_opcao4"/>Empirismo e Economia
+    </label>
+    <br>
+    <label>
+    <input type="radio" name="q2" value="0" id="q2_opcao5"/>Lean Thinking e Sprint
+    </label>
+   </div>
+   <div class="pergunta">
+    <h3>3- O Scrum é composto por eventos formais que fazem parte de um evento principal, chamado Sprint. Os eventos focam em implementar os pilares empíricos do Scrum, o primeiro deles, se define da seguinte maneira:</h3>
+      <h4>"O processo deve estar bem visível para todos os membros, de modo que tanto quem executa quanto quem recebe o trabalho, devem realizar este processo de forma esclarecida, com as tarefas (tasks) bem planejadas e registradas".</h4>
+    <h3>Qual pilar corresponde a definição acima?</h3>
+    <label>
+     <input type="radio" name="q3" value="0" id="q3_opcao1"/>Adaptação
+    </label>
+    <br>
+    <label>
+     <input type="radio" name="q3" value="1" id="q3_opcao2"/>Transparência
+    </label>
+    <br>
+    <label>
+     <input type="radio" name="q3" value="0" id="q3_opcao3"/>Compromisso
+     <br>
+    <label>
+    <input type="radio" name="q3" value="0" id="q3_opcao4"/>Foco
+    </label>
+    <br>
+    <label>
+    <input type="radio" name="q3" value="0" id="q3_opcao5"/>Inspeção
+    </label>
+  </div>
+   <div class="pergunta">
+    <h3>4-    O Scrum depende de alguns fatores para a obtenção do sucesso esperado em sua aplicação, os membros da equipes devem buscar a competência em valores fundamentais, estes valores orientam o Scrum Team em relação ao seu trabalho, ações e comportamento.</h3>
+    <h3>A seguir teremos algumas frases, com o possível Valor Scrum DESTACADOS em letras maiúsculas, selecione então a alternativa que não corresponde a Valor do Scrum.</h3>
+    <label>
+      <input type="radio" name="q4" value="0" id="q3_opcao1"/>Para que tudo corra bem, o Scrum Team e seus stakeholders (interessados) são <b>ABERTOS</b> quanto ao trabalho e os desafios.
+     </label>
+     <br>
+     <br>
+     <label>
+      <input type="radio" name="q4" value="0" id="q3_opcao2"/>Os membros do Scrum Team se <b>RESPEITAM</b> quanto a serem pessoas capazes e independentes, sendo respeitados como tal pelas pessoas com quem trabalham.
+     </label>
+     <br>
+     <br>
+     <label>
+      <input type="radio" name="q4" value="0" id="q3_opcao3"/>O Scrum Team se <b>COMPROMETE</b> a atingir seus objetivos e os componentes oferecerem apoio mútuo.
+      <br>
+      <br>
+     <label>
+     <input type="radio" name="q4" value="0" id="q2_opcao4"/>Seu <b>FOCO</b> principal é o trabalho da Sprint, visando fazer o maior progresso possível em direção às metas.
+     </label>
+     <br>
+     <br>
+     <label>
+     <input type="radio" name="42" value="1" id="q2_opcao5"/>A <b>ADAPTAÇÃO</b> é mais bem aplicada e aproveitada quando os membros da equipe são empoderados e autogerenciados
+     </label>
+    </div>
+     <div class="pergunta">
+      <h3>5- Assinale como V (verdadeiro) ou com F (falso) as seguintes afirmações, sobre o Scrum Team:</h3>
+      <p>(  ) Uma característica que deve estar intrínseca na equipe é o autogerenciamento, dividindo as tarefas internamente, com cada indivíduo tendo autonomia para adicionar o que for necessário no Product Backlog, sem necessidade de comunicar o Scrum Team</p>
+      <p>(  ) O Scrum Team corresponde a um pequeno time de pessoas, que consiste em um Scrum Master, um Product owner e Developers, mas não há hierarquia e nem sub-times, então há a divisão de tarefas para que cada um contribua, resultando numa unidade congruente de trabalho, focados no cumprimento de tarefas para cumprir o objetivo, a Meta do Produto. </p>
+      <p>(  ) O Scrum Team deve sempre permanecer ágil e grande o suficiente para concluir um trabalho significativo dentro de uma Sprint, então quanto mais melhor, normalmente 30 ou mais pessoas.</p>
+      <p>(  ) Todo o Scrum Team é responsável por criar um incremento valioso e útil a cada Sprint. O framework Scrum define três responsabilidades específicas dentro do Scrum Team: os Developers, o Product Owner e o Scrum Master.</p>
+      <h4>A sequência correta de preenchimento dos parênteses, de cima para baixo, é</h4>
+      <label>
+       <input type="radio" name="q5" value="0" id="q5_opcao1"/>V - V - F - V
+      </label>
+      <br>
+      <label>
+       <input type="radio" name="q5" value="1" id="q5_opcao2"/>F - V - F - V
+      </label>
+      <br>
+      <label>
+       <input type="radio" name="q5" value="0" id="q5_opcao3"/>F - F - F - V
+       <br>
+      <label>
+      <input type="radio" name="q5" value="0" id="q5_opcao4"/>F - F - V - F
+      </label>
+      <br>
+      <label>
+      <input type="radio" name="q5" value="0" id="q5_opcao5"/>V - V - V - F
+      </label>
+   </div>
+   <div class="pergunta">
+    <h3>6- O Product Owner tem a responsabilidade de maximizar o valor do produto, se baseando no trabalho resultante do Scrum Team. Assinale a anternativa <u><b>incorreta</b></u> sobre as atribuições do PO(Product Owner).</h3>
+    <label>
+     <input type="radio" name="q6" value="0" id="q6_opcao1"/>Garantir que o Product Backlog seja transparente, visível e compreensível.
+    </label>
+    <br>
+    <label>
+     <input type="radio" name="q6" value="0" id="q6_opcao2"/>Criar e comunicar claramente os itens do Product Backlog.
+    </label>
+    <br>
+    <label>
+     <input type="radio" name="q6" value="0" id="q6_opcao3"/>Desenvolver e comunicar explicitamente a meta do produto.
+     <br>
+    <label>
+    <input type="radio" name="q6" value="1" id="q6_opcao4"/>Planejar e aconselhar implementações de Scrum dentro da organização
+    </label>
+    <br>
+    <label>
+    <input type="radio" name="q6" value="0" id="q6_opcao5"/>Ordenar os itens do Product Backlog.
+    </label>
+  </div>
+  <div class="pergunta">
+    <h3>7- As Sprints são o coração do Scrum, onde ideias são transformadas em valor, gerando a evolução do projeto. São eventos de duração fixa de um mês ou menos para criar consistência. Uma nova Sprint começa imediatamente após a conclusão da Sprint anterior. Assinale então a alternativa que corresponde a etapas que ocorrem dentro de uma Sprint.</h3>
+    <label>
+     <input type="radio" name="q7" value="0" id="q7_opcao1"/>Sprint Planning, Sprint Scrum, Sprint Review e Sprint Backlog.
+    </label>
+    <br>
+    <label>
+     <input type="radio" name="q7" value="1" id="q7_opcao2"/>Month Scrum, Sprint Scrum, Sprint Retrospective e Sprint Backlog.
+    </label>
+    <br>
+    <label>
+     <input type="radio" name="q7" value="0" id="q7_opcao3"/>Sprint Backlog, Sprint Review, Sprint Planning e Daily Scrum.
+     <br>
+    <label>
+    <input type="radio" name="q7" value="0" id="q7_opcao4"/>Sprint Scrum, Daily Scrum, Sprint Backlog e Sprint Retrospective.
+    </label>
+    <br>
+    <label>
+    <input type="radio" name="q7" value="0" id="q7_opcao5"/>Sprint Planning, Daily Scrum, Sprint Retrospective e Sprint Review.
+    </label>
+  </div>
+  <div class="pergunta">
+    <h3>8- Qual o propósito da Daily Scrum e de que maneira ela deve ser realizada?</h3>
+    <label>
+     <input type="radio" name="q8" value="1" id="q8_opcao1"/>O propósito da Daily Scrum, deve ser inspecionar o progresso em direção a Meta da Sprint, adaptando o Sprint Backlog conforme necessário, focando sempre em ajustar o próximo trabalho planejado.
+    </label>
+    <br>
+    <label>
+     <input type="radio" name="q8" value="0" id="q8_opcao2"/>O propósito da Daily Scrum, deve ser adaptar o Sprint Backlog ao Product Backlog, diariamente o Scrum Team se reúne para adaptar as suas tarefas cumpridas e também comunicar a todos as tarefas que irá realizar neste dia.
+    </label>
+    <br>
+    <label>
+     <input type="radio" name="q8" value="0" id="q8_opcao3"/>O propósito da Daily Scrum, deve ser dialogar sobre o Product Backlog, sendo uma reunião com duração indeterminada, é colocado em prática o pilar empírico Transparência, pois, todos os membros apresentam os seus resultados.
+    <br>
+     <label>
+    <input type="radio" name="q8" value="0" id="q8_opcao4"/>O propósito da Daily Scrum, deve ser dialogar sobre a Meta da Sprint , sendo uma reunião diária, com duração determinada, o Scrum Team dá sugestões, sendo o Product Owner responsável por fazer o registro e definir os próximos passos.
+    </label>
+    <br>
+    <label>
+    <input type="radio" name="q8" value="0" id="q8_opcao5"/>O propósito da Daily Scrum, deve ser inspecionar a equipe de Developers, o Scrum Master conversa com todos, adaptando o Sprint Backlog conforme necessário, focando sempre em cobrar os resultados necessários para o cumprimento do Product Backlog.
+    </label>
+  </div>
+  <div class="pergunta">
+    <h3>9- O Product Backlog, compõe um processo de extrema importância no Scrum, assinale a alternativa detalha uma característica sua:</h3>
+    <label>
+     <input type="radio" name="q9" value="0" id="q9_opcao1"/>Os itens do Product Backlog podem ser refinados, apenas os mais relevantes são considerados para seleção no evento Sprint Planning.
+    </label>
+    <br>
+    <label>
+     <input type="radio" name="q9" value="0" id="q9_opcao2"/>É o objetivo de curto prazo para o Scrum Team, então os objetivos serão gerenciados através dele, por ter a duração de uma Sprint, alguns poderão ser reavaliados, alterados, complementados e até abandonados em alguns casos, definindo assim qual será o próximo a ser cumprido.
+    </label>
+    <br>
+    <label>
+     <input type="radio" name="q9" value="1" id="q9_opcao3"/>A Meta do Produto deve ser o alvo do Scrum Team, ou seja, descreve um estado futuro do produto, como imaginamos o resultado final.
+     <br>
+    <label>
+    <input type="radio" name="q9" value="0" id="q9_opcao4"/>O Product Backlog é uma lista grande e emergente do que é necessário para desenvolver o produto. É uma alternativa para o Scrum Team guiar o seu trabalho.
+    </label>
+    <br>
+    <label>
+    <input type="radio" name="q9" value="0" id="q9_opcao5"/>São registrados os itens que compõem o projeto e apenas com o decorrer das Sprints, ir realizando o planejamento de como serão divididas as tarefas ao longo do processo.
+    </label>
+  </div>
+  <div class="pergunta">
+    <h3>10- O Sprint Backlog, é conhecida como Meta da Sprint. A Meta da Sprint deverá ser criada durante o evento Sprint Planning e então adicionada ao Sprint Backlog. assinale a alternativa correta sobre a sua aplicação.</h3>
+    <label>
+     <input type="radio" name="q10" value="0" id="q10_opcao1"/>O Sprint Backlog é composto pela Meta da Sprint, que separa por etapas, os conjuntos de itens do Product Backlog selecionados, sendo alguns destes utilizados na Sprint atual e os outros transferidos para as próximas Sprints, então podemos considerá-lo de longo prazo.
+    </label>
+    <br>
+    <label>
+     <input type="radio" name="q10" value="0" id="q10_opcao2"/>A Meta da Sprint é o último objetivo da Sprint. A Meta então serve como deve ser utilizada em alguns momentos, demonstra os compromissos a serem cumpridos pelos Developers, desta maneira é possível definir e organizar os termos e formas de trabalho necessário para alcançá-la.
+    </label>
+    <br>
+    <label>
+     <input type="radio" name="q10" value="0" id="q10_opcao3"/>O Sprint Backlog é atualizado após a Sprint, conforme é aprendido pelos componentes da equipe. Deve ter informações suficientes para que os componentes possam analisar o desempenho da Sprint
+     <br>
+    <label>
+    <input type="radio" name="q10" value="1" id="q10_opcao4"/>Ele é resultado de um planejamento feito pelos Developers e será utilizado por eles mesmos, por isso, este deverá estar bem visível, para auxiliar na organização e desenvolvimento da Sprint, para atingir a Meta da Sprint.
+    </label>
+    <br>
+    <label>
+    <input type="radio" name="q10" value="0" id="q10_opcao5"/>É um plano feito por e para o Product Owner. É uma imagem altamente visível, em tempo real do trabalho que os Developers planejam realizar durante a Sprint para atingir a Meta do Produto.
+    </label>
+  </div>
+
+   <div class="resultado">
+    <button onclick="calcularPontuacao();  salvarPontuacao(document.getElementById('pontuacao').innerHTML)">Verificar Resultado</button>
+   </div>
+  </div>
+
+
+  <script>
+   function calcularPontuacao() {
+    var pontuacao = 0;
+
+      // Verifica a resposta da pergunta 1
+
+    var q1_respostas = document.getElementsByName("q1");
+    for (var i = 0; i < q1_respostas.length; i++) {
+     if (q1_respostas[i].checked && q1_respostas[i].value == "1") {
+      pontuacao++;
+     }
+    }
+
+    // Verifica a resposta da pergunta 2
+
+    var q2_respostas = document.getElementsByName("q2");
+    for (var i = 0; i < q2_respostas.length; i++) {
+     if (q2_respostas[i].checked && q2_respostas[i].value == "1") {
+      pontuacao++;
+     }
+    }
+
+    // Verifica a resposta da pergunta 3
+
+    var q3_respostas = document.getElementsByName("q3");
+    for (var i = 0; i < q3_respostas.length; i++) {
+     if (q3_respostas[i].checked && q3_respostas[i].value == "1") {
+      pontuacao++;
+     }
+    }
+
+     // Verifica a resposta da pergunta 4
+
+    var q4_respostas = document.getElementsByName("q4");
+    for (var i = 0; i < q4_respostas.length; i++) {
+     if (q4_respostas[i].checked && q4_respostas[i].value == "1") {
+      pontuacao++;
+     }
+     // Verifica a resposta da pergunta 5
+     
+     var q5_respostas = document.getElementsByName("q5");
+    for (var i = 0; i < q5_respostas.length; i++) {
+     if (q5_respostas[i].checked && q5_respostas[i].value == "1") {
+      pontuacao++;
+     }
+    }
+
+    // Verifica a resposta da pergunta 6
+
+    var q6_respostas = document.getElementsByName("q6");
+    for (var i = 0; i < q6_respostas.length; i++) {
+     if (q6_respostas[i].checked && q6_respostas[i].value == "1") {
+      pontuacao++;
+     }
+    }
+
+    // Verifica a resposta da pergunta 7
+
+    var q7_respostas = document.getElementsByName("q7");
+    for (var i = 0; i < q7_respostas.length; i++) {
+     if (q7_respostas[i].checked && q7_respostas[i].value == "1") {
+      pontuacao++;
+     }
+    }
+
+    // Verifica a resposta da pergunta 8
+
+    var q8_respostas = document.getElementsByName("q8");
+    for (var i = 0; i < q8_respostas.length; i++) {
+     if (q8_respostas[i].checked && q8_respostas[i].value == "1") {
+      pontuacao++;
+     }
+    }
+
+    // Verifica a resposta da pergunta 9
+
+    var q9_respostas = document.getElementsByName("q9");
+    for (var i = 0; i < q9_respostas.length; i++) {
+     if (q9_respostas[i].checked && q9_respostas[i].value == "1") {
+      pontuacao++;
+     }
+    }
+    
+    // Verifica a resposta da pergunta 10
+    
+    var q10_respostas = document.getElementsByName("q10");
+    for (var i = 0; i < q10_respostas.length; i++) {
+     if (q10_respostas[i].checked && q10_respostas[i].value == "1") {
+      pontuacao++;
+     }
+    }
+
+    }
+    if(pontuacao >= 5){
+      window.location.replace("pagina-sucesso.html");
+    }
+    else{
+      window.location.replace("pagina-fracasso.html")
+    }
+}
+  </script>
+ </body>
+</html>
+
+
+
+
